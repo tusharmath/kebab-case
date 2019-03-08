@@ -24,12 +24,12 @@ npm install --save kebab-case
 
 ### Module usage
 
-```javascript
-var kebabCase = require('kebab-case');
+```typescript
+import {kebabCase, reverseKebab} from 'kebab-case'
 
-kebabCase('WebkitTransform');
+kebabCase('WebkitTransform')
 // "-webkit-transform"
-kebabCase.reverse('-webkit-transform');
+reverseKebab('-webkit-transform')
 // "WebkitTransform"
 ```
 
@@ -37,17 +37,17 @@ kebabCase.reverse('-webkit-transform');
 
 ### `kebabCase(str)`
 
-| Name | Type | Description |
-|------|------|-------------|
-| str | `String` | The string to convert |
+| Name | Type     | Description           |
+| ---- | -------- | --------------------- |
+| str  | `String` | The string to convert |
 
 Returns: `String`, the kebab cased string.
 
-### `kebabCase.reverse(str)`
+### `reverseKebab(str)`
 
-| Name | Type | Description |
-|------|------|-------------|
-| str | `String` | The string to convert back |
+| Name | Type     | Description                |
+| ---- | -------- | -------------------------- |
+| str  | `String` | The string to convert back |
 
 Returns: `String`, the "unkebab cased" string.
 

@@ -1,0 +1,9 @@
+{
+  "generator-kips": {
+    "promptValues": {
+      "projectName": "kebab-case-ts",
+      "projectDescription": "Convert a string to kebab-case, i.e. its dash separated form",
+      "keywords": ""
+    }
+  }
+}
